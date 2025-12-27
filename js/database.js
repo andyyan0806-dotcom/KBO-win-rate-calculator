@@ -1,6 +1,6 @@
 const SUPABASE_URL = 'https://kktjuxbgudwqvbcfqfqs.supabase.co'
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtrdGp1eGJndWR3cXZiY2ZxZnFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxNDYyMjAsImV4cCI6MjA3MjcyMjIyMH0.EzNPhlJOUC2VV0aTCEoi-_j-50UcNQxKNR2brh04UOo"
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+var supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 
 /**
  * 팀 이름으로 모든 통계 데이터를 조회하는 함수
